@@ -8,7 +8,6 @@ This project is a simple and responsive portfolio website for showcasing persona
 ## Features
 - Responsive design for all screen sizes.
 - Clean and user-friendly UI.
-- Social media links for better connectivity.
 - Sections for About, Services, and Contact.
 
 ## Solution Approach
@@ -24,6 +23,3 @@ This project is a simple and responsive portfolio website for showcasing persona
 1. Clone this repository.
 2. Open `index.html` in your browser to view the website.
 3. Modify the content or styling as per your needs.
-
-## License
-This project is open source and available for personal use.
