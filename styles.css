@@ -1,0 +1,26 @@
+/* Custom Styles */
+.hero-section {
+    background: url('https://via.placeholder.com/1200x500') no-repeat center center/cover;
+    padding: 100px 0;
+  }
+  
+  .about-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .social-icons a {
+    margin-right: 10px;
+  }
+  
+  .services-section .card {
+    border: none;
+    background-color: #f9f9f9;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+  }
