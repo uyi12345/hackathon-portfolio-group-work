@@ -10,6 +10,12 @@
     border-radius: 10px;
   }
   
+  .skills-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
   .social-icons a {
     margin-right: 10px;
   }
@@ -17,6 +23,16 @@
   .services-section .card {
     border: none;
     background-color: #f9f9f9;
+    transition: transform 0.3s;
+  }
+  
+  .services-section .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .portfolio-section img {
+    margin-bottom: 15px;
+    border-radius: 5px;
   }
   
   footer {
