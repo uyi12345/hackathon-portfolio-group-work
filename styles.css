@@ -1,25 +1,53 @@
-/* Custom Styles */
+/* Styling for the Hero Section */
 .hero-section {
-    background: url('https://via.placeholder.com/1200x500') no-repeat center center/cover;
+    background: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0') no-repeat center center/cover;
     padding: 100px 0;
+    color: white;
   }
   
+  /* About Section Styling */
   .about-section img {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
   }
   
-  .skills-section img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
+  .about-section ul {
+    padding-left: 0;
+    list-style-type: none;
   }
   
   .social-icons a {
     margin-right: 10px;
   }
   
+  /* Skills Section */
+  .skills-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .skills-section ul {
+    padding-left: 20px;
+  }
+  
+  .skills-section ul li {
+    margin-bottom: 10px;
+    list-style-type: none;
+    position: relative;
+    padding-left: 20px;
+  }
+  
+  .skills-section ul li::before {
+    content: "✔";
+    color: green;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
+  /* Services Section */
   .services-section .card {
     border: none;
     background-color: #f9f9f9;
@@ -30,13 +58,27 @@
     transform: scale(1.05);
   }
   
+  /* Portfolio Section */
   .portfolio-section img {
     margin-bottom: 15px;
     border-radius: 5px;
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s;
   }
   
+  .portfolio-section img:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Footer Section */
   footer {
     background-color: #333;
     color: #fff;
     padding: 15px 0;
+  }
+  
+  footer p {
+    margin: 0;
   }
